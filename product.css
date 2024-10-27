@@ -154,7 +154,7 @@ body {
 /* Responsiveness for tablets */
 @media (max-width: 768px) {
     #container {
-        flex-direction: column-reverse;
+        flex-direction: column;
         flex-wrap: wrap;
         max-width: 100%;
     }
@@ -195,7 +195,7 @@ body {
 /* Responsiveness for mobile devices */
 @media (max-width: 480px) {
     #container {
-        flex-direction: column;
+     
         max-width: 100%;
     }
 

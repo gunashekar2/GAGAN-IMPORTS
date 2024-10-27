@@ -198,6 +198,9 @@ ul.dropdown ul a {
     .menu-open .menu-icon i {
         content: '\f00d'; 
     }
+    #Gagan-showcasehub h2 ,#main-body h2,#product-categories h1{
+        font-size: 18px !important;
+    }
 }
 /* @media (max-width: 768px) {
     .gallery-item:hover {
