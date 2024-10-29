@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Business Way - Gagan Imports & Exports</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <title>Gagan Imports & Exports</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="our_business_way.css">
+    <link rel="stylesheet" href="ricepage.css"> 
+    
+    <!-- icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
+  
 
     <nav>
         <div id="menu-strip">
@@ -23,7 +30,7 @@
                 </div>
                 <div class="horizontal-centering">
                     <ul class="dropdown dropdown-horizontal">
-                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="aboutus.html" class="dir">About Us</a></li>
                         <li><a href="#product-categories" class="dir" class="products-link">Products</a>
                             <ul class="dropdown">
@@ -116,7 +123,7 @@
                             </ul>
                         </li>
                         <li><a href="whyUs.html" class="dir">Why Us</a></li>
-                        <li><a href="ourbusinessway.html" class="active" class="dir">Our Business Way</a></li>
+                        <li><a href="ourbusinessway.html" class="dir">Our Business Way</a></li>
                         <li><a href="contactus.html" class="dir">Contact Us</a></li>                        
                     </ul>
                 </div>
@@ -126,31 +133,47 @@
             </div>
         </div>
     </nav>
-<div class="container">
-    <!-- <img src="our_business_way.png" alt="Process Flow Image" class="process-image"> -->
-    
-    <div id="ourbusinessway-container">
-        <div id="left-side-business-way">
-            <img src="flowchart-business-way.png" alt="flowchart-business-way" class="flowchart-image">
-        </div>
-        
-        <div class="process-flow">
-            <ul class="process-list">
-                <li><strong>Inquiry Phase:</strong> Buyer sends product inquiry. Company responds with product details, specifications, and pricing.</li>
-                <li><strong>Quotation Phase:</strong> Buyer requests a formal quote. Company provides a proforma invoice with price, terms, and shipping details.</li>
-                <li><strong>Order Confirmation:</strong> Buyer reviews and confirms the order. Company sends order confirmation and timeline.</li>
-                <li><strong>Production/Processing Phase:</strong> Company starts manufacturing or preparing the goods. Quality control checks at different stages of production.</li>
-                <li><strong>Payment Processing:</strong> Buyer processes payment as per agreed terms (advance or Letter of Credit). Company verifies payment.</li>
-                <li><strong>Packaging & Documentation:</strong> Company packages products securely for international shipment and prepares export documentation.</li>
-                <li><strong>Shipping/Logistics:</strong> Goods are handed over to the shipping agent. Company provides tracking and shipping details to the buyer.</li>
-                <li><strong>Customs Clearance:</strong> Products undergo export customs clearance. Buyer prepares for import customs clearance.</li>
-                <li><strong>Delivery:</strong> Goods arrive at the destination port.</li>
-            </ul>
-        </div>
-    </div>
-</div>
 
-<footer>
+
+    <!--Image -->
+    <div class="image-stack">
+        <img src="background1.png" alt="Image 1" class="stacked-image" style="z-index: 6;">
+        <img src="background2.jpeg" alt="Image 2" class="stacked-image" style="z-index: 5;">
+        <img src="background3.jpeg" alt="Image 3" class="stacked-image" style="z-index: 4;">
+        <img src="background4.jpeg" alt="Image 4" class="stacked-image" style="z-index: 3;">
+        <img src="background5.jpeg" alt="Image 5" class="stacked-image" style="z-index: 2;">
+        <img src="background6.jpeg" alt="Image 6" class="stacked-image" style="z-index: 1;">
+
+    </div>
+
+
+
+       <div class="animationCotainer">
+        <div class="center-logo">
+            <img src="gagan final l-01.png" alt="Center Logo">
+        </div>
+        <ul id="animi-menu">
+            <a class="menu-button icon-plus" id="open-menu" href="#animi-menu" title="Show navigation"></a>
+            <a class="menu-button icon-minus" href="#0" title="Hide navigation"></a>
+           <li class="menu-item"><img src="rice.png" alt="Product 1"></li>
+            <li class="menu-item"><img src="rice.png" alt="Product 2"></li>
+            <li class="menu-item"><img src="rice.png" alt="Product 3"></li>
+            <li class="menu-item"><img src="rice.png" alt="Product 4"></li>
+            <li class="menu-item"><img src="rice.png" alt="Product 5"></li>
+            <li class="menu-item"><img src="rice.png" alt="Product 6"></li>
+            <li class="menu-item"><img src="rice.png" alt="Product 7"></li>
+        </ul>
+    </div>
+   
+    
+
+
+
+
+
+    <!--Footer-->
+    <a id="whatsapp-image" href="http://wa.me/92123435464"> <img src="whatsapp-logo.png" alt="Whatsapp img"></a>
+   <footer>
     <div id="footer-leftside-container">
         <div id="footer-nav-container">
             <ul>
@@ -182,8 +205,27 @@
         </ul>
     </div>
    </footer>
-   <script src="app.js"></script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+
+ 
+
+    <script src="app.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        // Scroll to Product Categories when Products is clicked (only on small screens)
+        document.querySelector('.products-link').addEventListener('click', function(event) {
+            if (window.innerWidth <= 768) { // Apply only for screens <= 768px
+                event.preventDefault();
+                document.querySelector('#product-categories').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
+        </script>
+        
+        
 </body>
 </html>
+
+ 
+
