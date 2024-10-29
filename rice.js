@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 2,
             name: "Sona Masoori Rice (Steam / Raw)",
             details: "Sona Masoori Rice Specifications",
-            image: "pusarice.jpeg", 
+            image: "sona-masori.jpg", 
             origin: "Tamil Nadu, Andhra Pradesh, Telangana, Karnataka, India",
             qualitySpecifications: {
                 Color: "White (Polished) / Brown (Unpolished)",

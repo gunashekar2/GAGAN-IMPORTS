@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 1,
             name: "potato ",
-            image: "potato .png", 
+            image: "potato.png", 
             details: "POTATO SPECIFICATIONS",
             para2:`Botanical Name: Solanum tuberosum Family: Solanaceae Plant Description: Potato is a herbaceous perennial plant with a short stem and tufted leaves. The leaves are green above and pale green below, with a length of 30-40 cm and a width of 8-12 cm. The plant produces white, pink, or purple flowers and small, green fruits that contain seeds.
 
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 2,
             name: "Carrot  ",
-            image: "Carrot  .png", 
+            image: "carrots.png", 
             details: "CARROT SPECIFICATIONS",
             para2:`Botanical Name: Daucus carota subsp. sativus Family: Apiaceae Plant Description: Carrot is a biennial herbaceous plant with a rosette of green, feathery leaves. The edible root is typically orange, though it can be purple, black, red, white, or yellow. The roots are long and tapered, with a length ranging from 10-30 cm and a diameter of 2-5 cm.
              Soil Requirements: Carrots grow best in deep, loose, well-drained sandy loam soils with a pH range of 6.0-7.0. Heavy or clay soils can cause the roots to become malformed.
@@ -144,7 +144,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 3,
             name: "Turnip  ",
-            image: "Turnip.png", 
+            image: "turnips.png", 
             details: "TURNIP SPECIFICATIONS",
             para2:`Botanical Name: Brassica rapa Family: Cruciferae Plant Description: The turnip is a biennial herbaceous plant with green leaves and fleshy roots. The plant typically grows to a height of 30-60 cm. The roots are usually white with a purple top. The leaves are green above, pale green below, and can reach 30-50 cm in length and 10-15 cm in width.
              Soil Requirements: Well-drained loam with a slightly acidic to neutral pH (5.5-7.0). Turnips thrive best in fertile soils free from waterlogging.
@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 4,
             name: "Dried Tomato ",
-            image: "DriedTomato.png", 
+            image: "dried-tomatoes.png", 
             details: "DRIED TOMATO SPECIFICATIONS",
             para2:`Botanical Name: Solanum lycopersicum L. Family: Solanaceae Plant Description: The tomato plant is a tender perennial, usually grown as an annual, with a height of 1-3 meters. It has a weak, woody stem and hairy leaves. The flowers are yellow and the fruit is a fleshy berry, typically red when ripe.
             Soil Requirements: Tomatoes grow best in well-drained, loamy soils with a pH range of 6.0-7.0. They require fertile soil rich in organic matter.
@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 5,
             name: "Brinjal   ",
-            image: "Brinjal.png", 
+            image: "brinjals.png", 
             details: "BRINJAL SPECIFICATIONS",
             para2:`Botanical Name: Solanum melongena Family: Solanaceae Plant Description: Brinjal, also known as eggplant or aubergine, is a tender perennial plant that is typically grown as an annual. It has a height of 60-90 cm with a sturdy, woody stem. The plant produces large, lobed leaves and purple or white flowers. The fruit is a fleshy berry, usually purple but can also be green, white, or striped, with a length of 5-30 cm depending on the variety.
             Soil Requirements: Brinjals thrive in well-drained, fertile loamy soils with a pH range of 5.5-6.8. Sandy loam soils are ideal for early crops, while clay loam soils are suitable for late-season crops.
@@ -326,7 +326,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 6,
             name: "Onion    ",
-            image: "Onion.png", 
+            image: "onions.png", 
             details: "ONION SPECIFICATIONS",
             para2:`Botanical Name: Allium cepa Family: Amaryllidaceae Plant Description: Onions are biennial or perennial plants, grown as annuals. They have a short, bulbous stem with long, hollow leaves. The bulb is typically round to oblong, consisting of fleshy, concentric layers. Onions can be white, yellow, red, or purple.
             Soil Requirements: Onions grow best in well-drained, sandy loam soils with a pH range of 6.0-7.0. They require fertile soil rich in organic matter and good moisture retention.
@@ -383,7 +383,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 7,
             name: "Dried Onion Powder",
-            image: "DriedOnionPowder.png", 
+            image: "dried-onion-powder.png", 
             details: "DRIED ONION POWDER SPECIFICATIONS",
             para2:`Botanical Name: Allium cepa Family: Amaryllidaceae Plant Description: Onions used for making dried onion powder are typically biennial or perennial plants grown as annuals. They produce a short, bulbous stem with long, hollow leaves. The bulb is round to oblong and consists of fleshy, concentric layers that can be white, yellow, red, or purple.
             Soil Requirements: Onions grow best in well-drained, sandy loam soils with a pH range of 6.0-7.0. They require fertile soil rich in organic matter and good moisture retention.

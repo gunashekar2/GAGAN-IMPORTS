@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 2,
             name: "NUTMEG AND MACE",
             details: "NUTMEG AND MACE SPECIFICATIONS",
-            image: "clove.jpeg", 
+            image: "nutmeg.jpg", 
             para: "Nutmeg and Mace are the dried, cleaned, and polished products of Myristica fragrans. The plant is a tropical evergreen tree, 10-20 meters high, with a dense canopy of leaves. The leaves are simple, alternate, and dark green, with a length of 5-15 cm and a width of 2-7 cm. The lamina is green above and pale green below. Inflorescence is a central spike of 10-15 cm length. 1-4 flowers are borne in the axil of the bract, opening one at a time. About 30 flowers are produced in a spike. Seeds are produced in capsules, and there will be one to numerous sunken capsules in an inflorescence.",
 
             para2 :"In India, it is cultivated in the states of Kerala, Tamil Nadu, and Karnataka. Nutmeg and mace are tropical crops cultivated from sea level to 900 meters MSL. They grow in well-drained loamy soils and can be grown in both irrigated and rainfed conditions. The crop cannot stand water logging or alkalinity.In India, it is cultivated in the states of Kerala, Tamil Nadu, and Karnataka. Nutmeg and mace are tropical crops cultivated from sea level to 900 meters MSL. They grow in well-drained loamy soils and can be grown in both irrigated and rainfed conditions. The crop cannot stand water logging or alkalinity.",

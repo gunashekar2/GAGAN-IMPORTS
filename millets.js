@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 1,
             name: "FINGER MILLET",
-            image: "image/png", 
+            image: "finger-millet.png", 
             details: "FINGER MILLET SPECIFICATIONS",
             para2:"Comman Names : Ragi, Nachni, Kezhvaragu",
 
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 2,
             name: "KODO MILLET ",
-            image: "KodoMillet .jpeg", 
+            image: "kodo-millet.png", 
             details: "KODO MILLET SPECIFICATIONS",
             para:"Scientific Name: Paspalum scrobiculatum",
 
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 3,
             name: "BARNYARD MILLET ",
-            image: "BarnyardMillet .jpeg", 
+            image: "barnyard-millet.png", 
             details: "BARNYARD MILLET SPECIFICATIONS",
             para:"Scientific Name: Echinochloa frumentacea or Echinochloa esculenta",
 
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 4,
             name: "FOXTAIL MILLET ",
-            image: "FoxtailMillet .jpeg", 
+            image: "foxtail-millet.png", 
             details: "FOXTAIL MILLET SPECIFICATIONS",
             // para:"Scientific Name: Paspalum scrobiculatum",
 
@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 5,
             name: "SORGHUM MILLET ",
-            image: "Sorghum Millet .jpeg", 
+            image: "sorghum-millet.png", 
             details: "SORGHUM MILLET SPECIFICATIONS",
             // para:"Scientific Name: Paspalum scrobiculatum",
 
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 6,
             name: "PEARL MILLET ",
-            image: "PearlMillet .jpeg", 
+            image: "pearl-millet.png", 
             details: "PEARL MILLET SPECIFICATIONS",
             // para:"Scientific Name: Paspalum scrobiculatum",
 
@@ -330,7 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 7,
             name: "LITTLE MILLET ",
-            image: "LittleMillet .jpeg", 
+            image: "", 
             details: "LITTLE MILLET SPECIFICATIONS",
           //  para:"Scientific Name: Paspalum scrobiculatum",
 

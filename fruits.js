@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 5,
             name: "Orange ",
-            image: "Orange .png", 
+            image: "oranges.png", 
             details: "ORANGE SPECIFICATIONS",
             para2:`Botanical Name: Citrus × sinensis Family: Rutaceae Plant Description: Orange trees are small to medium-sized evergreen trees that grow up to 9-10 meters tall. They have glossy, dark green leaves and white, fragrant flowers.
              The fruit is typically round with a bright orange peel and juicy, sweet-tasting flesh inside. The size of the fruit ranges from 6-12 cm in diameter.
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 4,
             name: "Indian Gooseberry ",
-            image: "IndianGooseberry .png", 
+            image: "gooseberry.png", 
             details: "INDIAN GOOSEBERRY SPECIFICATIONS",
             para2:`Botanical Name: Phyllanthus emblica Family: Phyllanthaceae Plant Description: Indian gooseberry, also known as Amla, is a small to medium-sized deciduous tree that grows up to 8-18 meters tall. It has a crooked trunk and spreading branches. 
              The leaves are simple, closely set along the branches, and are light green in color. The tree produces small, greenish-yellow flowers and round, smooth, fleshy fruit that is light green to yellowish in color.
@@ -197,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 2,
             name: "Guava ",
-            image: "Guava.png", 
+            image: "guava.png", 
             details: "GUAVA SPECIFICATIONS",
             para2:`Botanical Name: Psidium guajava Family: Myrtaceae Plant Description: Guava is a small evergreen tree or shrub that grows up to 3-10 meters tall. It has broad, dark green leaves and produces white flowers.
              The fruit is round to oval-shaped, with a thin skin that can be green, yellow, or red. The flesh inside is white, pink, or red, and contains numerous small seeds.
@@ -260,7 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 3,
             name: "Coconut",
-            image: "Coconut .png", 
+            image: "coconut.png", 
             details: "COCONUT SPECIFICATIONS",
             para2:`Botanical Name: Cocos nucifera Family: Arecaceae Plant Description: The coconut palm is a large, single-trunked palm that can grow up to 30 meters tall. It has a crown of large, feathered leaves, each 4-6 meters long.
               The tree produces clusters of coconuts, which are large, oval-shaped fruits with a fibrous outer husk and a hard, woody shell surrounding the edible white flesh and coconut water inside.
