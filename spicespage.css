@@ -137,7 +137,7 @@
     #spicespage_menu {
         width: 150px;
         height: 150px;
-        margin: -75px 0 0 -75px;
+        margin: -62px 0 0 -62px;
     }
     .spicespage_menu-button {
         width: 150px;
@@ -145,10 +145,11 @@
         margin: -75px 0 0 -75px;
     }
     .spicespage_menu-item {
-        width: 70px;
-        height: 70px;
+        width: 45px;
+        height: 45px;
         margin: -35px;
     }
+   
     #spicespage_menu:target > .spicespage_menu-item:nth-child(3) { transform: rotate(0deg) translate(90px) rotate(0deg); }
     #spicespage_menu:target > .spicespage_menu-item:nth-child(4) { transform: rotate(30deg) translate(90px) rotate(-30deg); }
     #spicespage_menu:target > .spicespage_menu-item:nth-child(5) { transform: rotate(60deg) translate(90px) rotate(-60deg); }
