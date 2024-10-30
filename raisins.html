@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruits</title>
+    <title>Product Details</title>
     <title>Gagan Imports & Exports</title>
    
     <link rel="stylesheet" href="product.css">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="horizontal-centering">
                     <ul class="dropdown dropdown-horizontal">
-                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="aboutus.html" class="dir">About Us</a></li>
                         <li><a href="#product-categories" class="active" class="dir" class="products-link">Products</a>
                             <ul class="dropdown">
@@ -128,18 +128,19 @@
             </div>
         </div>
     </nav>
+
     <!-- Product name and image section -->
     <section id="product-name-image">
        
         <div id="hero">
-            <img id="product-image" src="" alt="Product Image" />
+            <img id="product-image" src="raisins.jpeg" alt="Product Image" />
         </div>
     </section>
 
     <div id="container">
         <!-- Left-side product list -->
         <section id="product-list">
-                
+          
             <div class="category">
                 <h2>SPICES</h2>
                 <ul>
@@ -229,37 +230,65 @@
 
         <!-- Right-side product details -->
         <section id="product-details">
-            
-            <h1 class="product-details">Product Specifications</h1>
-            <p class="para"></p> <!-- Populated with js file -->
-            <p class="para2"></p>
+            <h1 class="product-details">RAISIN Specifications</h1>
 
             <div class="product-info">
-                <h2>NUTRITIONAL CONTENT</h2>
-                <ul class="product-nutritional">
-                    <!-- NUTRITIONAL CONTENT specifications will be dynamically populated here -->
-                </ul> 
-               
-                <h2>VARIETIES</h2> 
-                <ul class="varieties">
-                    <!-- varieties specifications will be dynamically populated here -->
-                </ul>
-                <h2>PRODUCT SPECIFICATIONS</h2> 
-                <ul class="ProductSpecifications">
-                    <!-- Product specifications will be dynamically populated here -->
+                <h2>Product Name :</h2>
+                <p class="product-name-2">RAISIN</p> <!-- Populated with product name -->
+
+                <h2>Product Description</h2>
+                <p class="origin">Our premium quality raisins are sourced from the finest vineyards, ensuring a rich, sweet flavor and a plump, juicy texture. Perfect for snacking, baking, and cooking, our raisins are a versatile addition to any pantry</p> <!-- Populated with product origin -->
+
+                <h2>Varieties</h2>
+                <ul class="quality-specifications">
+                    <li>Thompson Seedless Raisins</li>
+                    <li>Golden Raisins</li>
+                    <li>Sultana Raisins</li>
+                    <li>Black Raisins</li>
                 </ul>
 
-                <h2>QUALITY SPECIFICATIONS</h2> 
-                <ul class="QualitySpecifications">
-                    <!-- Quality specifications will be dynamically populated here -->
-                </ul>
                 
-                <h2>Uses</h2>
-                <p class="uses"></p>
-                  
-                <h2>Packing & Shipment Specifications</h2>
-                <p class="shipment"></p> <!-- Populated with culinary uses -->
-            
+
+                <h2>Quality Standards</h2>
+                <ul class="key-features">
+                    <li>Grade A: Uniform size, excellent color, and flavor, with minimal defects.</li>
+                    <li>Grade B: Good quality with slight variations in size and color, maintaining a good flavor.</li>
+                    <li>Grade C: Fair quality with more noticeable variations in size and color, suitable for industrial use.</li>
+                    <li>Physical Characteristics</li>
+                    <li>Moisture Content: ≤ 18% for all varieties except Monukka, which may contain up to 19%.</li>
+                    <li>Size: Varies by variety, typically ranging from 0.5 to 1.5 cm in length.</li>
+                    <li>Color: Golden, dark brown, or black, depending on the variety.</li>
+                </ul>
+
+                <h2>Nutritional Information (per 100g)</h2>
+                <p class="culinary-uses">Calories: 299 kcal
+                    Carbohydrates: 79g<br>
+                    Sugars: 59g<br>
+                    Dietary Fiber: 4g<br>
+                    Protein: 3g<br>
+                    Fat: 0.5g</p> <!-- Populated with culinary uses -->
+
+                <h2>Packaging</h2>
+                <p class="Indurstrial-Uses">Bulk Packaging: 10kg, 20kg, and 25kg cartons.<br>
+                    Retail Packaging: 250g, 500g, and 1kg resealable bags.</p>
+
+                <h2>Certifications</h2>
+                <ul class="shipment">
+                  <li>ISO 22000: Food Safety Management<br>
+                    HACCP: Hazard Analysis and Critical Control Points<br>
+                    Organic Certification: Available upon request</li>
+                </ul>
+                <h2>Storage and Shelf Life</h2>
+                <ul class="shipment">
+                  <li>Storage Conditions: Store in a cool, dry place away from direct sunlight.<br>
+                    Shelf Life: Up to 12 months under proper storage conditions./li>
+                </ul>
+                <h2>Sustainability Practices</h2>
+                <ul class="shipment">
+                  <li>
+                    Eco-Friendly Farming: Our raisins are grown using sustainable farming practices that minimize environmental impact.<br>
+                    Fair Trade: We ensure fair wages and working conditions for all our farmers and workers.</li>
+                </ul>
             </div>
         </section>
     </div>
@@ -297,9 +326,7 @@
             </ul>
         </div>
        </footer>
-    
 
-    <script src="vegitables.js" defer></script>
     <script src="app.js" defer></script>
 </body>
 </html>

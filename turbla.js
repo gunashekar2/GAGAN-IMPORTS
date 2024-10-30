@@ -68,8 +68,9 @@ document.addEventListener('DOMContentLoaded', () => {
             Packing: Standard in 50 Kg Jute Bags with HDPE or PP Lining or as per customer requirements.<br>
             Mode of Payment: TT, LC<br>
             Delivery: Delivered to the loading port of choice within 20 days from the date of receipt of confirmed purchase order and receipt of advance.<br>
-            Applicable Shipment Terms: FOB/CFR/CIF Inco Terms 2020 as needed by the customer to their port of choice.<br><br>`
-            // culinaryUses: "Ideal for South Indian dishes like idli, dosa, and daily meals."
+            Applicable Shipment Terms: FOB/CFR/CIF Inco Terms 2020 as needed by the customer to their port of choice.<br><br>`,
+            culinaryUses: "Widely used as a spice in curries, soups, and stews Used as a seasoning in a variety of dishes including meats, vegetables, pasta, and salads Essential ingredient in traditional Indian, Southeast Asian, and Mediterranean cuisines Commonly found in spice blends like garam masala and curry powder Often used in marinades for meat and fish",
+            IndurstrialUses: "Used in the production of cosmetics and skincare products Utilized in the pharmaceutical industry for its medicinal properties Employed in the dyeing industry for its vibrant color",
         },
         
     ];

@@ -6,17 +6,20 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "potato ",
             image: "potato.png", 
             details: "POTATO SPECIFICATIONS",
-            para2:`Botanical Name: Solanum tuberosum Family: Solanaceae Plant Description: Potato is a herbaceous perennial plant with a short stem and tufted leaves. The leaves are green above and pale green below, with a length of 30-40 cm and a width of 8-12 cm. The plant produces white, pink, or purple flowers and small, green fruits that contain seeds.
+            para2:`Botanical Name: Solanum tuberosum<br>
+            
+             Family: Solanaceae <br>
+             Plant Description: Potato is a herbaceous perennial plant with a short stem and tufted leaves. The leaves are green above and pale green below, with a length of 30-40 cm and a width of 8-12 cm. The plant produces white, pink, or purple flowers and small, green fruits that contain seeds.<br><br>
 
 
-            Soil Requirements: Potatoes can be grown in a variety of soils, including alluvial, black, red, and laterite soils. The ideal pH range is 6.5-7.5, and the soil should have good drainage to prevent waterlogging1.
+            Soil Requirements: Potatoes can be grown in a variety of soils, including alluvial, black, red, and laterite soils. The ideal pH range is 6.5-7.5, and the soil should have good drainage to prevent waterlogging1.<br><br>
 
 
             Climate Requirements: Potatoes are a cool-season crop, with optimal growth temperatures between 15-20°C1
             . They require long daylight hours and moderate temperatures for tuber formation1
-            . High temperatures can inhibit tuber development.
+            . High temperatures can inhibit tuber development.<br><br>
 
-          Major Growing States: Potatoes are widely cultivated in the states of Uttar Pradesh, West Bengal, Bihar, Gujarat, Madhya Pradesh, and Punjab1.`,
+          Major Growing States: Potatoes are widely cultivated in the states of Uttar Pradesh, West Bengal, Bihar, Gujarat, Madhya Pradesh, and Punjab1. <br><br>`,
 
           
             
@@ -81,9 +84,15 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Carrot  ",
             image: "carrots.png", 
             details: "CARROT SPECIFICATIONS",
-            para2:`Botanical Name: Daucus carota subsp. sativus Family: Apiaceae Plant Description: Carrot is a biennial herbaceous plant with a rosette of green, feathery leaves. The edible root is typically orange, though it can be purple, black, red, white, or yellow. The roots are long and tapered, with a length ranging from 10-30 cm and a diameter of 2-5 cm.
-             Soil Requirements: Carrots grow best in deep, loose, well-drained sandy loam soils with a pH range of 6.0-7.0. Heavy or clay soils can cause the roots to become malformed.
-             Climate Requirements: Carrots thrive in cool to moderate climates with temperatures between 15-21°C. High temperatures can cause the roots to become woody and less sweet.
+            para2:`Botanical Name: Daucus carota subsp. sativus <br>
+             Family: Apiaceae <br>
+             Plant Description: Carrot is a biennial herbaceous plant with a rosette of green, feathery leaves.
+             The edible root is typically orange, though it can be purple, black, red, white, or yellow. The roots are long and tapered, with a length ranging from 10-30 cm and a diameter of 2-5 cm.<br><br>
+
+             Soil Requirements: Carrots grow best in deep, loose, well-drained sandy loam soils with a pH range of 6.0-7.0. Heavy or clay soils can cause the roots to become malformed.<br><br>
+
+             Climate Requirements: Carrots thrive in cool to moderate climates with temperatures between 15-21°C. High temperatures can cause the roots to become woody and less sweet.<br><br>
+             
             Major Growing States: Carrots are widely cultivated in the states of Uttar Pradesh, Punjab, Haryana, Tamil Nadu, and Karnataka.`,
           
             
@@ -146,9 +155,11 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Turnip  ",
             image: "turnips.png", 
             details: "TURNIP SPECIFICATIONS",
-            para2:`Botanical Name: Brassica rapa Family: Cruciferae Plant Description: The turnip is a biennial herbaceous plant with green leaves and fleshy roots. The plant typically grows to a height of 30-60 cm. The roots are usually white with a purple top. The leaves are green above, pale green below, and can reach 30-50 cm in length and 10-15 cm in width.
-             Soil Requirements: Well-drained loam with a slightly acidic to neutral pH (5.5-7.0). Turnips thrive best in fertile soils free from waterlogging.
-            Climate Requirements: Best suited to cool and moderate climates. The optimal temperature for growth ranges from 18-23°C. Turnips can tolerate frost but are sensitive to high temperatures which can lead to tough, woody roots.
+            para2:`Botanical Name: Brassica rapa <br>
+            Family: Cruciferae <br> 
+            Plant Description: The turnip is a biennial herbaceous plant with green leaves and fleshy roots. The plant typically grows to a height of 30-60 cm. The roots are usually white with a purple top. The leaves are green above, pale green below, and can reach 30-50 cm in length and 10-15 cm in width.<br><br>
+             Soil Requirements: Well-drained loam with a slightly acidic to neutral pH (5.5-7.0). Turnips thrive best in fertile soils free from waterlogging.<br><br>
+            Climate Requirements: Best suited to cool and moderate climates. The optimal temperature for growth ranges from 18-23°C. Turnips can tolerate frost but are sensitive to high temperatures which can lead to tough, woody roots.<br><br>
             Major Growing Regions: Primarily grown in the states of Uttar Pradesh, Punjab, Haryana, Bihar, Himachal Pradesh, Karnataka, and Andhra Pradesh.`,
           
             
@@ -208,9 +219,12 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Dried Tomato ",
             image: "dried-tomatoes.png", 
             details: "DRIED TOMATO SPECIFICATIONS",
-            para2:`Botanical Name: Solanum lycopersicum L. Family: Solanaceae Plant Description: The tomato plant is a tender perennial, usually grown as an annual, with a height of 1-3 meters. It has a weak, woody stem and hairy leaves. The flowers are yellow and the fruit is a fleshy berry, typically red when ripe.
-            Soil Requirements: Tomatoes grow best in well-drained, loamy soils with a pH range of 6.0-7.0. They require fertile soil rich in organic matter.
-            Climate Requirements: Tomatoes thrive in warm, sunny climates with temperatures between 20-30°C. They require consistent moisture and do not tolerate frost.      
+            para2:`Botanical Name: Solanum lycopersicum L.<br>
+             Family: Solanaceae<br> 
+             Plant Description: The tomato plant is a tender perennial, usually grown as an annual, with a height of 1-3 meters. It has a weak, woody stem and hairy leaves. The flowers are yellow and the fruit is a fleshy berry, typically red when ripe.<br><br>
+
+            Soil Requirements: Tomatoes grow best in well-drained, loamy soils with a pH range of 6.0-7.0. They require fertile soil rich in organic matter.<br><br>
+            Climate Requirements: Tomatoes thrive in warm, sunny climates with temperatures between 20-30°C. They require consistent moisture and do not tolerate frost.<br>     <br> 
             Major Growing States: Tomatoes are widely cultivated in the states of Maharashtra, Andhra Pradesh, Karnataka, Gujarat, and Tamil Nadu.`,
           
             
@@ -270,10 +284,12 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Brinjal   ",
             image: "brinjals.png", 
             details: "BRINJAL SPECIFICATIONS",
-            para2:`Botanical Name: Solanum melongena Family: Solanaceae Plant Description: Brinjal, also known as eggplant or aubergine, is a tender perennial plant that is typically grown as an annual. It has a height of 60-90 cm with a sturdy, woody stem. The plant produces large, lobed leaves and purple or white flowers. The fruit is a fleshy berry, usually purple but can also be green, white, or striped, with a length of 5-30 cm depending on the variety.
-            Soil Requirements: Brinjals thrive in well-drained, fertile loamy soils with a pH range of 5.5-6.8. Sandy loam soils are ideal for early crops, while clay loam soils are suitable for late-season crops.
+            para2:`Botanical Name: Solanum melongena <br>
+            Family: Solanaceae  <br><br>
+            Plant Description: Brinjal, also known as eggplant or aubergine, is a tender perennial plant that is typically grown as an annual. It has a height of 60-90 cm with a sturdy, woody stem. The plant produces large, lobed leaves and purple or white flowers. The fruit is a fleshy berry, usually purple but can also be green, white, or striped, with a length of 5-30 cm depending on the variety.<br><br>
+            Soil Requirements: Brinjals thrive in well-drained, fertile loamy soils with a pH range of 5.5-6.8. Sandy loam soils are ideal for early crops, while clay loam soils are suitable for late-season crops.<br><br>
 
-            Climate Requirements: Brinjals prefer a warm climate with temperatures between 25-30°C. They require a long growing season and do not tolerate frost.
+            Climate Requirements: Brinjals prefer a warm climate with temperatures between 25-30°C. They require a long growing season and do not tolerate frost.<br><br>
              Major Growing States: Brinjals are widely cultivated in the states of West Bengal, Andhra Pradesh, Maharashtra, Gujarat, and Bihar.`,
           
             
@@ -328,9 +344,13 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Onion    ",
             image: "onions.png", 
             details: "ONION SPECIFICATIONS",
-            para2:`Botanical Name: Allium cepa Family: Amaryllidaceae Plant Description: Onions are biennial or perennial plants, grown as annuals. They have a short, bulbous stem with long, hollow leaves. The bulb is typically round to oblong, consisting of fleshy, concentric layers. Onions can be white, yellow, red, or purple.
-            Soil Requirements: Onions grow best in well-drained, sandy loam soils with a pH range of 6.0-7.0. They require fertile soil rich in organic matter and good moisture retention.
-            Climate Requirements: Onions thrive in cool to moderate climates with temperatures between 13-24°C. They require long daylight hours and moderate temperatures for bulb formation. High temperatures can cause bolting and poor bulb development.
+            para2:`Botanical Name: Allium cepa <br>
+            Family: Amaryllidaceae <br><br>
+            Plant Description: Onions are biennial or perennial plants, grown as annuals. They have a short, bulbous stem with long, hollow leaves. The bulb is typically round to oblong, consisting of fleshy, concentric layers. Onions can be white, yellow, red, or purple.<br><br>
+
+            Soil Requirements: Onions grow best in well-drained, sandy loam soils with a pH range of 6.0-7.0. They require fertile soil rich in organic matter and good moisture retention.<br><br>
+
+            Climate Requirements: Onions thrive in cool to moderate climates with temperatures between 13-24°C. They require long daylight hours and moderate temperatures for bulb formation. High temperatures can cause bolting and poor bulb development.<br><br>
             Major Growing States: Onions are widely cultivated in the states of Maharashtra, Gujarat, Uttar Pradesh, Karnataka, and Madhya Pradesh.`,
           
             
@@ -385,9 +405,12 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Dried Onion Powder",
             image: "dried-onion-powder.png", 
             details: "DRIED ONION POWDER SPECIFICATIONS",
-            para2:`Botanical Name: Allium cepa Family: Amaryllidaceae Plant Description: Onions used for making dried onion powder are typically biennial or perennial plants grown as annuals. They produce a short, bulbous stem with long, hollow leaves. The bulb is round to oblong and consists of fleshy, concentric layers that can be white, yellow, red, or purple.
-            Soil Requirements: Onions grow best in well-drained, sandy loam soils with a pH range of 6.0-7.0. They require fertile soil rich in organic matter and good moisture retention.
-            Climate Requirements: Onions thrive in cool to moderate climates with temperatures between 13-24°C. They require long daylight hours and moderate temperatures for bulb formation.
+            para2:`Botanical Name: Allium cepa <br> 
+            Family: Amaryllidaceae <br><br>
+
+            Plant Description: Onions used for making dried onion powder are typically biennial or perennial plants grown as annuals. They produce a short, bulbous stem with long, hollow leaves. The bulb is round to oblong and consists of fleshy, concentric layers that can be white, yellow, red, or purple.<br><br>
+            Soil Requirements: Onions grow best in well-drained, sandy loam soils with a pH range of 6.0-7.0. They require fertile soil rich in organic matter and good moisture retention.<br><br>
+            Climate Requirements: Onions thrive in cool to moderate climates with temperatures between 13-24°C. They require long daylight hours and moderate temperatures for bulb formation.<br><br>
             Major Growing States: Onions for dried onion powder are widely cultivated in the states of Maharashtra, Gujarat, Uttar Pradesh, Karnataka, and Madhya Pradesh`,
           
             

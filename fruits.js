@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Mango",
             image: "mango.png", 
             details: "MANGO SPECIFICATIONS",
-            para2:`Botanical Name: Mangifera indica Family: Anacardiaceae Plant Description: The mango tree is a large, spreading evergreen that can grow up to 35-40 meters tall. It has a dense canopy of green leaves and small, fragrant white flowers. The fruit is typically oval or round, with a smooth, leathery skin that can be yellow, orange, red, or green when ripe.<br><br>
+            para2:`Botanical Name: Mangifera indica<br>
+             Family: Anacardiaceae <br><br>
+             Plant Description: The mango tree is a large, spreading evergreen that can grow up to 35-40 meters tall. It has a dense canopy of green leaves and small, fragrant white flowers. The fruit is typically oval or round, with a smooth, leathery skin that can be yellow, orange, red, or green when ripe.<br><br>
 
             Soil Requirements: Mangoes thrive in well-drained, sandy loam to clay loam soils with a pH range of 5.5-7.5. They require fertile soil rich in organic matter and good drainage to prevent root rot.<br><br>
 
@@ -74,8 +76,10 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Orange ",
             image: "oranges.png", 
             details: "ORANGE SPECIFICATIONS",
-            para2:`Botanical Name: Citrus × sinensis Family: Rutaceae Plant Description: Orange trees are small to medium-sized evergreen trees that grow up to 9-10 meters tall. They have glossy, dark green leaves and white, fragrant flowers.
-             The fruit is typically round with a bright orange peel and juicy, sweet-tasting flesh inside. The size of the fruit ranges from 6-12 cm in diameter.
+            para2:`Botanical Name: Citrus × sinensis <br>
+             Family: Rutaceae <br><br>
+             Plant Description: Orange trees are small to medium-sized evergreen trees that grow up to 9-10 meters tall. They have glossy, dark green leaves and white, fragrant flowers.<br>
+             The fruit is typically round with a bright orange peel and juicy, sweet-tasting flesh inside. The size of the fruit ranges from 6-12 cm in diameter.<br>
             Major Growing States: Oranges are widely cultivated in the states of Maharashtra, Andhra Pradesh, Karnataka, Punjab, and Rajasthan.`,
           
             
@@ -136,10 +140,12 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 4,
             name: "Indian Gooseberry ",
-            image: "gooseberry.png", 
+            image: "gooseberries.png", 
             details: "INDIAN GOOSEBERRY SPECIFICATIONS",
-            para2:`Botanical Name: Phyllanthus emblica Family: Phyllanthaceae Plant Description: Indian gooseberry, also known as Amla, is a small to medium-sized deciduous tree that grows up to 8-18 meters tall. It has a crooked trunk and spreading branches. 
-             The leaves are simple, closely set along the branches, and are light green in color. The tree produces small, greenish-yellow flowers and round, smooth, fleshy fruit that is light green to yellowish in color.
+            para2:`Botanical Name: Phyllanthus emblica <br>
+            Family: Phyllanthaceae <br><br>
+             Plant Description: Indian gooseberry, also known as Amla, is a small to medium-sized deciduous tree that grows up to 8-18 meters tall. It has a crooked trunk and spreading branches. <br><br>
+             The leaves are simple, closely set along the branches, and are light green in color. The tree produces small, greenish-yellow flowers and round, smooth, fleshy fruit that is light green to yellowish in color.<br><br>
             Major Growing States: Indian gooseberries are widely cultivated in the states of Uttar Pradesh, Gujarat, Maharashtra, Andhra Pradesh, and Tamil Nadu.`,
           
             
@@ -199,10 +205,12 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Guava ",
             image: "guava.png", 
             details: "GUAVA SPECIFICATIONS",
-            para2:`Botanical Name: Psidium guajava Family: Myrtaceae Plant Description: Guava is a small evergreen tree or shrub that grows up to 3-10 meters tall. It has broad, dark green leaves and produces white flowers.
-             The fruit is round to oval-shaped, with a thin skin that can be green, yellow, or red. The flesh inside is white, pink, or red, and contains numerous small seeds.
-             Soil Requirements: Guavas grow best in well-drained, sandy loam to clay loam soils with a pH range of 5.5-7.5. They are tolerant of a wide range of soil types but prefer fertile, organic-rich soils.
-             Climate Requirements: Guavas thrive in tropical and subtropical climates with temperatures between 23-28°C. They require a warm climate with moderate rainfall and are sensitive to frost.
+            para2:`Botanical Name: Psidium guajava <br>
+            Family: Myrtaceae <br><br>
+            Plant Description: Guava is a small evergreen tree or shrub that grows up to 3-10 meters tall. It has broad, dark green leaves and produces white flowers.<br>
+             The fruit is round to oval-shaped, with a thin skin that can be green, yellow, or red. The flesh inside is white, pink, or red, and contains numerous small seeds.<br><br>
+             Soil Requirements: Guavas grow best in well-drained, sandy loam to clay loam soils with a pH range of 5.5-7.5. They are tolerant of a wide range of soil types but prefer fertile, organic-rich soils.<br><br>
+             Climate Requirements: Guavas thrive in tropical and subtropical climates with temperatures between 23-28°C. They require a warm climate with moderate rainfall and are sensitive to frost.<br><br>
             Major Growing States: Guavas are widely cultivated in the states of Uttar Pradesh, Maharashtra, Bihar, Andhra Pradesh, and Tamil Nadu.`,
           
             
@@ -262,8 +270,10 @@ document.addEventListener('DOMContentLoaded', () => {
             name: "Coconut",
             image: "coconut.png", 
             details: "COCONUT SPECIFICATIONS",
-            para2:`Botanical Name: Cocos nucifera Family: Arecaceae Plant Description: The coconut palm is a large, single-trunked palm that can grow up to 30 meters tall. It has a crown of large, feathered leaves, each 4-6 meters long.
-              The tree produces clusters of coconuts, which are large, oval-shaped fruits with a fibrous outer husk and a hard, woody shell surrounding the edible white flesh and coconut water inside.
+            para2:`Botanical Name: Cocos nucifera <br>
+            Family: Arecaceae <br><br>
+             Plant Description: The coconut palm is a large, single-trunked palm that can grow up to 30 meters tall. It has a crown of large, feathered leaves, each 4-6 meters long.<br>
+              The tree produces clusters of coconuts, which are large, oval-shaped fruits with a fibrous outer husk and a hard, woody shell surrounding the edible white flesh and coconut water inside.<br><br>
             Major Growing States: Coconuts are widely cultivated in the states of Kerala, Tamil Nadu, Karnataka, Andhra Pradesh, and West Bengal.`,
           
             

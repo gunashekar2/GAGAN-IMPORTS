@@ -14,6 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+  
     
     
    
@@ -155,7 +156,7 @@ body {
 /* Responsiveness for tablets */
 @media (max-width: 768px) {
     #container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         flex-wrap: wrap;
         max-width: 100%;
     }

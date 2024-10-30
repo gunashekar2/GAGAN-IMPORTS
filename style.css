@@ -282,7 +282,7 @@ h2 {
     text-transform: uppercase;
 }
 
-p {
+#main-body p {
     font-size: 1.1rem;
     color: #333;
     max-width: 800px;
@@ -671,10 +671,13 @@ footer #footer-leftside-container {
     #footer-nav-container ul a {
         margin-right: 0;
         padding-right: 0;
-        padding-bottom: 10px;
+       
         border-right: none;
         border-bottom: 1px solid black; /* Add bottom border instead of right */
-        padding-top: 15px;
+       
+    }
+    #footer-nav-container ul li,#footer-copyrights p {
+        margin-top: 20px;
     }
 
     #footer-nav-container ul a:last-child {
