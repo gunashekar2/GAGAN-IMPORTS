@@ -131,18 +131,12 @@
     </nav>
 
 
-    <!--Image -->
-    <div class="image-stack">
-        <img src="background1.png" alt="Image 1" class="stacked-image" style="z-index: 6;">
-        <img src="background2.jpeg" alt="Image 2" class="stacked-image" style="z-index: 5;">
-        <img src="background3.jpeg" alt="Image 3" class="stacked-image" style="z-index: 4;">
-        <img src="background4.jpeg" alt="Image 4" class="stacked-image" style="z-index: 3;">
-        <img src="background5.jpeg" alt="Image 5" class="stacked-image" style="z-index: 2;">
-        <img src="background6.jpeg" alt="Image 6" class="stacked-image" style="z-index: 1;">
-
-    </div>
+     
     
     <div class="animimain">
+        <div class="sideimage-container">
+            <img src="plane.jpg" id="leftImage">               
+        </div>
         <div class="ricepage_container">
             
             <!-- Center Logo -->
@@ -177,8 +171,13 @@
                 </li>
             </ul>
         </div>
+        <div class="sideimage-container">           
+            <img src="ship.jpg" id="rightImage"> 
+        </div>
 
 </div>
+
+
     <footer>
         <div id="footer-leftside-container">
             <div id="footer-nav-container">
@@ -224,5 +223,33 @@
                }
            });
            </script>
+
+<script>
+    // Scroll to Product Categories when Products is clicked (only on small screens)
+    document.querySelector('.products-link').addEventListener('click', function(event) {
+        if (window.innerWidth <= 768) { // Apply only for screens <= 768px
+            event.preventDefault();
+            document.querySelector('#product-categories').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    });
+    </script>
+   <script>
+    const centerLogo = document.getElementById('ricepage_menu');
+    const leftImage = document.getElementById('leftImage');
+    const rightImage = document.getElementById('rightImage');
+
+    let isToggled = false;
+
+    centerLogo.addEventListener('click', () => {
+        isToggled = !isToggled; // Toggle state
+        leftImage.parentElement.classList.toggle('hidden', isToggled);
+        rightImage.parentElement.classList.toggle('hidden-right', isToggled);
+    });
+
+  
+</script>
+
 </body>
 </html>

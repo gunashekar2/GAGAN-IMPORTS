@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gagan Imports & Exports</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ricepage.css"> 
+    
+    <!-- icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        .animationContainer {
+            position: relative;
+            width: 600px;
+            height: 300px;
+            overflow: hidden; /* Ensure overflow is hidden */
+            margin: auto; /* Center the container */
+        }
+
+        .sideimage-container {
+            
+            transition: transform 1.5s ease; /* Slow transition */
+        }
+
+     
+
+        .center-logo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10; /* Ensure it is above images */
+            cursor: pointer; /* Change cursor on hover */
+        }
+
+        .hidden {
+            transform: translateX(780px); /* Move left image away */
+        }
+
+        .hidden-right {
+            transform: translateX(-780px); /* Move right image away */
+        }
+
+        /* Other styles you had */
+        .animimain {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: red;
+            align-items: center;
+            margin-top: 200px; /* Adjust margin as needed */
+        }
+
+        .animimain img {
+            height: 100px;
+            border-radius: 50%;
+        }
+
+       
+
+      
+    </style>
+</head>
+<body>
+
+
+
+<div class="container">
+    <div class="animimain">
+        <div class="sideimage-container" id="leftContainer">
+            <img src="plane.jpg" id="leftImage">
+            <div class="line"></div>
+        </div>
+        
+        <div class="animationContainer">
+            <div class="center-logo" id="centerLogo">
+                <img src="gagan final l-01.png" alt="Center Logo">
+            </div>
+            <ul id="animi-menu">
+                <a class="menu-button icon-plus" id="open-menu" href="#animi-menu" title="Show navigation"></a>
+                <a class="menu-button icon-minus" href="#0" title="Hide navigation"></a>
+                <li class="menu-item"><a href="rice.html?id=1"><img src="basmathi.jpeg" alt="Product 1" ></a></li>
+                <li class="menu-item"><a href="rice.html?id=2"><img src="blackrice.jpeg" alt="Product 2"></a></li>
+                <li class="menu-item"><a href="rice.html?id=3"><img src="pusarice.jpeg" alt="Product 3"></a></li>
+                <li class="menu-item"><a href="rice.html?id=4"><img src="lachkaririce.jpeg" alt="Product 4"></a></li>
+                <li class="menu-item"><a href="rice.html?id=5"><img src="brownrice.jpeg" alt="Product 5"></a></li>
+                <li class="menu-item"><a href="rice.html?id=6"><img src="sellarice.jpeg" alt="Product 6"></a></li>
+                <li class="menu-item"><a href="rice.html?id=7"><img src="sona-masori.jpg" alt="Product 7"></a></li>
+            </ul>
+        </div>
+        <div class="sideimage-container" id="rightContainer">
+            <div class="line"></div>
+            <img src="ship.jpg" id="rightImage"> 
+        </div>
+    </div>
+</div>
+
+
+
+<script src="app.js"></script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+    const centerLogo = document.getElementById('centerLogo');
+    const leftImage = document.getElementById('leftImage');
+    const rightImage = document.getElementById('rightImage');
+
+    let isToggled = false;
+
+    centerLogo.addEventListener('click', () => {
+        isToggled = !isToggled; // Toggle state
+        leftImage.parentElement.classList.toggle('hidden', isToggled);
+        rightImage.parentElement.classList.toggle('hidden-right', isToggled);
+    });
+
+  
+</script>
+</body>
+</html>

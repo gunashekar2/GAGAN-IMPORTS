@@ -135,24 +135,21 @@
     </nav>
 
 
-    <!--Image -->
-    <div class="image-stack">
-        <img src="background1.png" alt="Image 1" class="stacked-image" style="z-index: 6;">
-        <img src="background2.jpeg" alt="Image 2" class="stacked-image" style="z-index: 5;">
-        <img src="background3.jpeg" alt="Image 3" class="stacked-image" style="z-index: 4;">
-        <img src="background4.jpeg" alt="Image 4" class="stacked-image" style="z-index: 3;">
-        <img src="background5.jpeg" alt="Image 5" class="stacked-image" style="z-index: 2;">
-        <img src="background6.jpeg" alt="Image 6" class="stacked-image" style="z-index: 1;">
-
-    </div>
+  
 
 
 
     <div class="container">
+       
+        
         
         <div class="animimain">
-        <div class="animationCotainer">
-            <div class="center-logo">
+            <div class="sideimage-container">
+                <img src="plane.jpg" id="leftImage">               
+            </div>
+            
+        <div class="animationCotainer" id="centerLogo">
+            <div class="center-logo" >
                 <img src="gagan final l-01.png" alt="Center Logo">
             </div>
             <ul id="animi-menu">
@@ -166,6 +163,9 @@
                 <li class="menu-item"><a href="rice.html?id=6"><img src="sellarice.jpeg" alt="Product 6"></a></li>
                 <li class="menu-item"><a href="rice.html?id=7"><img src="sona-masori.jpg" alt="Product 7"></a></li>
             </ul>
+        </div>
+        <div class="sideimage-container">           
+            <img src="ship.jpg" id="rightImage"> 
         </div>
     </div>
 </div>
@@ -229,7 +229,26 @@
             }
         });
         </script>
+       <script>
+        const centerLogo = document.getElementById('animi-menu');
+        const leftImage = document.getElementById('leftImage');
+        const rightImage = document.getElementById('rightImage');
+    
+        let isToggled = false;
+    
+        centerLogo.addEventListener('click', () => {
+            isToggled = !isToggled; // Toggle state
+            leftImage.parentElement.classList.toggle('hidden', isToggled);
+            rightImage.parentElement.classList.toggle('hidden-right', isToggled);
+        });
+    
+      
+    </script>
+
+   
         
+
+       
         
 </body>
 </html>

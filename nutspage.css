@@ -16,6 +16,7 @@
 .animimain {
     display: flex;
     justify-content: center;
+    margin-top: 200px;
  
 }
 .ricepage_container {
@@ -29,8 +30,8 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 150px;
-    height: 150px;
+    width: 400px;
+    height: 400px;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     background-color: #ddd;
@@ -107,23 +108,23 @@
 
 /* Positioning 5 items in a circular layout */
 #ricepage_menu:target > .ricepage_menu-item:nth-child(3) {
-    transform: rotate(0deg) translate(190px) rotate(0deg);
+    transform: rotate(0deg) translate(280px) rotate(0deg);
     transition-delay: 0s;
 }
 #ricepage_menu:target > .ricepage_menu-item:nth-child(4) {
-    transform: rotate(72deg) translate(190px) rotate(-72deg);
+    transform: rotate(72deg) translate(280px) rotate(-72deg);
     transition-delay: 0.1s;
 }
 #ricepage_menu:target > .ricepage_menu-item:nth-child(5) {
-    transform: rotate(144deg) translate(190px) rotate(-144deg);
+    transform: rotate(144deg) translate(280px) rotate(-144deg);
     transition-delay: 0.2s;
 }
 #ricepage_menu:target > .ricepage_menu-item:nth-child(6) {
-    transform: rotate(216deg) translate(190px) rotate(-216deg);
+    transform: rotate(216deg) translate(280px) rotate(-216deg);
     transition-delay: 0.3s;
 }
 #ricepage_menu:target > .ricepage_menu-item:nth-child(7) {
-    transform: rotate(288deg) translate(190px) rotate(-288deg);
+    transform: rotate(288deg) translate(280px) rotate(-288deg);
     transition-delay: 0.4s;
 }
 
@@ -162,4 +163,27 @@
     #ricepage_menu:target > .ricepage_menu-item:nth-child(5) { transform: rotate(144deg) translate(100px) rotate(-144deg); }
     #ricepage_menu:target > .ricepage_menu-item:nth-child(6) { transform: rotate(216deg) translate(100px) rotate(-216deg); }
     #ricepage_menu:target > .ricepage_menu-item:nth-child(7) { transform: rotate(288deg) translate(100px) rotate(-288deg); }
+}
+
+.hidden {
+    transform: translateX(680px); /* Move left image away */
+}
+
+.hidden-right {
+    transform: translateX(-680px); /* Move right image away */
+}
+
+
+
+.sideimage-container {
+    display: flex;
+    align-items: center;
+  
+    transition: transform 1.5s ease; /* Slow transition */
+}
+
+
+.animimain img {
+    height: 100px;
+    border-radius: 50%;
 }
